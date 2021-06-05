@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 407BFF45
-/// @DnDArgument : "steps" "room_speed*0.2"
+/// @DnDArgument : "steps" "room_speed*0.08"
 /// @DnDArgument : "alarm" "2"
-alarm_set(2, room_speed*0.2);
+alarm_set(2, room_speed*0.08);
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
@@ -36,7 +36,6 @@ var xx = floor(random_range(0, room_width + 1));
 /// @DnDVersion : 1
 /// @DnDHash : 6543E7F4
 /// @DnDArgument : "xpos" "xx"
-/// @DnDArgument : "ypos" "room_height"
 /// @DnDArgument : "objectid" "O_Car_Reversed"
 /// @DnDSaveInfo : "objectid" "O_Car_Reversed"
-instance_create_layer(xx, room_height, "Instances", O_Car_Reversed);
+instance_create_layer(xx, 0, "Instances", O_Car_Reversed);

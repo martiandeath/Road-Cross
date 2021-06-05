@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Win_Section",
-    "path": "sprites/Win_Section/Win_Section.yy",
+    "name": "Character_Creation",
+    "path": "sprites/Character_Creation/Character_Creation.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_Win_Section",
+  "name": "O_Character_Creation",
   "tags": [],
   "resourceType": "GMObject",
 }
