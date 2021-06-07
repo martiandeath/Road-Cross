@@ -104,8 +104,8 @@ if(room == Start)
 /// @DnDVersion : 1
 /// @DnDHash : 0A9B5A0E
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "Game_3_Win"
-if(room == Game_3_Win)
+/// @DnDArgument : "value" "Game_4_Win"
+if(room == Game_4_Win)
 {
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -129,9 +129,9 @@ if(room == Game_3_Win)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AE9361A
 	/// @DnDParent : 0A9B5A0E
-	/// @DnDArgument : "font" "ComicSans108"
-	/// @DnDSaveInfo : "font" "ComicSans108"
-	draw_set_font(ComicSans108);
+	/// @DnDArgument : "font" "ComicSans72"
+	/// @DnDSaveInfo : "font" "ComicSans72"
+	draw_set_font(ComicSans72);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -410,6 +410,74 @@ if(room == Game_2_Win)
 	/// @DnDVersion : 1
 	/// @DnDHash : 08695A97
 	/// @DnDParent : 350C200E
+	/// @DnDArgument : "x" "room_width*0.5"
+	/// @DnDArgument : "y" "room_height*0.5"
+	/// @DnDArgument : "caption" "">>> Press Enter to Continue <<<""
+	draw_text(room_width*0.5, room_height*0.5, string(">>> Press Enter to Continue <<<") + "");
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 20C597BF
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Game_3_Win"
+if(room == Game_3_Win)
+{
+	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 31466C2C
+	/// @DnDParent : 20C597BF
+	/// @DnDArgument : "halign" "fa_center"
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_top);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 399F4C83
+	/// @DnDParent : 20C597BF
+	/// @DnDArgument : "color" "$FFFFCC65"
+	draw_set_colour($FFFFCC65 & $ffffff);
+	var l399F4C83_0=($FFFFCC65 >> 24);
+	draw_set_alpha(l399F4C83_0 / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 2D1EA1EB
+	/// @DnDParent : 20C597BF
+	/// @DnDArgument : "font" "ComicSans54"
+	/// @DnDSaveInfo : "font" "ComicSans54"
+	draw_set_font(ComicSans54);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 1469674A
+	/// @DnDParent : 20C597BF
+	/// @DnDArgument : "x" "room_width*0.5"
+	/// @DnDArgument : "y" "room_height*0.35"
+	/// @DnDArgument : "caption" ""You Have Completed Level Three!""
+	draw_text(room_width*0.5, room_height*0.35, string("You Have Completed Level Three!") + "");
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 74D115D9
+	/// @DnDParent : 20C597BF
+	/// @DnDArgument : "color" "$FFC7FF84"
+	draw_set_colour($FFC7FF84 & $ffffff);
+	var l74D115D9_0=($FFC7FF84 >> 24);
+	draw_set_alpha(l74D115D9_0 / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 1415E241
+	/// @DnDParent : 20C597BF
+	/// @DnDArgument : "font" "ComicSans27"
+	/// @DnDSaveInfo : "font" "ComicSans27"
+	draw_set_font(ComicSans27);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 57BC7C9A
+	/// @DnDParent : 20C597BF
 	/// @DnDArgument : "x" "room_width*0.5"
 	/// @DnDArgument : "y" "room_height*0.5"
 	/// @DnDArgument : "caption" "">>> Press Enter to Continue <<<""

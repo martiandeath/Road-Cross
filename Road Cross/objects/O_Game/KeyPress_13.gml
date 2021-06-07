@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 72B135CD
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "Game_3_Win"
-if(room == Game_3_Win)
+/// @DnDArgument : "value" "Game_4_Win"
+if(room == Game_4_Win)
 {
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
@@ -39,6 +39,20 @@ if(room == Game_2_Win)
 	/// @DnDVersion : 1
 	/// @DnDHash : 04BA97C2
 	/// @DnDParent : 1EAD0208
+	room_goto_next();
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 593E7A54
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Game_3_Win"
+if(room == Game_3_Win)
+{
+	/// @DnDAction : YoYo Games.Rooms.Next_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 4DBE90B7
+	/// @DnDParent : 593E7A54
 	room_goto_next();
 }
 
