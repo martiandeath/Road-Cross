@@ -234,8 +234,8 @@ if(room == Instructions)
 	/// @DnDParent : 6349A524
 	/// @DnDArgument : "x" "room_width*0.5"
 	/// @DnDArgument : "y" "room_height*0.3"
-	/// @DnDArgument : "caption" ""use arrow keys to move""
-	draw_text(room_width*0.5, room_height*0.3, string("use arrow keys to move") + "");
+	/// @DnDArgument : "caption" ""Use arrow keys to move""
+	draw_text(room_width*0.5, room_height*0.3, string("Use arrow keys to move") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -243,8 +243,26 @@ if(room == Instructions)
 	/// @DnDParent : 6349A524
 	/// @DnDArgument : "x" "room_width*0.5"
 	/// @DnDArgument : "y" "room_height*0.4"
-	/// @DnDArgument : "caption" ""reach the black zone to proceed to the next level""
-	draw_text(room_width*0.5, room_height*0.4, string("reach the black zone to proceed to the next level") + "");
+	/// @DnDArgument : "caption" ""Reach the black zone to proceed to the next level""
+	draw_text(room_width*0.5, room_height*0.4, string("Reach the black zone to proceed to the next level") + "");
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 137F7C4C
+	/// @DnDParent : 6349A524
+	/// @DnDArgument : "x" "room_width*0.5"
+	/// @DnDArgument : "y" "room_height*0.5"
+	/// @DnDArgument : "caption" ""The cars will kill you, avoid them""
+	draw_text(room_width*0.5, room_height*0.5, string("The cars will kill you, avoid them") + "");
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 247348AF
+	/// @DnDParent : 6349A524
+	/// @DnDArgument : "x" "room_width*0.5"
+	/// @DnDArgument : "y" "room_height*0.6"
+	/// @DnDArgument : "caption" ""The vans will kidnap you, avoid them""
+	draw_text(room_width*0.5, room_height*0.6, string("The vans will kidnap you, avoid them") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1

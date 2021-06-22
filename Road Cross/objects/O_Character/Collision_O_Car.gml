@@ -20,3 +20,10 @@ repeat(20)
 /// @DnDHash : 71628C14
 x = xstart;
 y = ystart;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 7C64D9B8
+/// @DnDArgument : "soundid" "Windows_Error"
+/// @DnDSaveInfo : "soundid" "Windows_Error"
+audio_play_sound(Windows_Error, 0, 0);
