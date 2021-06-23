@@ -9,20 +9,18 @@ if(room == Start)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1BE65F0F
 	/// @DnDParent : 0827D1D5
-	/// @DnDArgument : "soundid" "Sail_Away"
+	/// @DnDArgument : "soundid" "Bleeping_Demo"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "soundid" "Sail_Away"
-	var l1BE65F0F_0 = Sail_Away;
+	var l1BE65F0F_0 = Bleeping_Demo;
 	if (!audio_is_playing(l1BE65F0F_0))
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
 		/// @DnDHash : 362AAD51
 		/// @DnDParent : 1BE65F0F
-		/// @DnDArgument : "soundid" "Sail_Away"
+		/// @DnDArgument : "soundid" "Bleeping_Demo"
 		/// @DnDArgument : "loop" "1"
-		/// @DnDSaveInfo : "soundid" "Sail_Away"
-		audio_play_sound(Sail_Away, 0, 1);
+		audio_play_sound(Bleeping_Demo, 0, 1);
 	}
 }
 
@@ -37,9 +35,8 @@ if(room == Game_Level_1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 08FB8A8B
 	/// @DnDParent : 1AD36D0B
-	/// @DnDArgument : "soundid" "Sail_Away"
-	/// @DnDSaveInfo : "soundid" "Sail_Away"
-	audio_stop_sound(Sail_Away);
+	/// @DnDArgument : "soundid" "Bleeping_Demo"
+	audio_stop_sound(Bleeping_Demo);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -172,9 +169,8 @@ if(room == Game_Level_2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 60D06E52
 	/// @DnDParent : 02A3261A
-	/// @DnDArgument : "soundid" "Sail_Away"
-	/// @DnDSaveInfo : "soundid" "Sail_Away"
-	audio_stop_sound(Sail_Away);
+	/// @DnDArgument : "soundid" "Bleeping_Demo"
+	audio_stop_sound(Bleeping_Demo);
 
 	/// @DnDAction : YoYo Games.Loops.Repeat
 	/// @DnDVersion : 1
@@ -292,9 +288,8 @@ if(room == Game_Level_3)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AC15DD6
 	/// @DnDParent : 3A841762
-	/// @DnDArgument : "soundid" "Sail_Away"
-	/// @DnDSaveInfo : "soundid" "Sail_Away"
-	audio_stop_sound(Sail_Away);
+	/// @DnDArgument : "soundid" "Bleeping_Demo"
+	audio_stop_sound(Bleeping_Demo);
 
 	/// @DnDAction : YoYo Games.Loops.Repeat
 	/// @DnDVersion : 1
@@ -433,9 +428,8 @@ if(room == Game_Level_4)
 	/// @DnDVersion : 1
 	/// @DnDHash : 132387A0
 	/// @DnDParent : 59CD4988
-	/// @DnDArgument : "soundid" "Sail_Away"
-	/// @DnDSaveInfo : "soundid" "Sail_Away"
-	audio_stop_sound(Sail_Away);
+	/// @DnDArgument : "soundid" "Bleeping_Demo"
+	audio_stop_sound(Bleeping_Demo);
 
 	/// @DnDAction : YoYo Games.Loops.Repeat
 	/// @DnDVersion : 1

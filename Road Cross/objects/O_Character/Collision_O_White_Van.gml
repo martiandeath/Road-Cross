@@ -1,20 +1,3 @@
-/// @DnDAction : YoYo Games.Loops.Repeat
-/// @DnDVersion : 1
-/// @DnDHash : 738AA40D
-/// @DnDArgument : "times" "20"
-repeat(20)
-{
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 10D2C9FB
-	/// @DnDParent : 738AA40D
-	/// @DnDArgument : "xpos_relative" "1"
-	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "O_Blood"
-	/// @DnDSaveInfo : "objectid" "O_Blood"
-	instance_create_layer(x + 0, y + 0, "Instances", O_Blood);
-}
-
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 33CCE82E

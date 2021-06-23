@@ -1,18 +1,48 @@
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
-/// @DnDHash : 2FD84F71
-/// @DnDInput : 5
-/// @DnDArgument : "var" "cardirection"
-/// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "option" "359"
-/// @DnDArgument : "option_2" "1"
-/// @DnDArgument : "option_3" "358"
-/// @DnDArgument : "option_4" "2"
-var cardirection = choose(359, 0, 1, 358, 2);
+/// @DnDHash : 1D1335DD
+/// @DnDInput : 2
+/// @DnDArgument : "var" "angle_choose"
+/// @DnDArgument : "option_1" "1"
+angle_choose = choose(0, 1);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1F92B982
+/// @DnDArgument : "var" "angle_choose"
+if(angle_choose == 0)
+{
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
+	/// @DnDVersion : 1
+	/// @DnDHash : 6DA74106
+	/// @DnDParent : 1F92B982
+	/// @DnDArgument : "var" "cardirection"
+	/// @DnDArgument : "var_temp" "1"
+	/// @DnDArgument : "min" "358"
+	/// @DnDArgument : "max" "360"
+	var cardirection = (random_range(358, 360));
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4E141580
+/// @DnDArgument : "var" "angle_choose"
+/// @DnDArgument : "value" "1"
+if(angle_choose == 1)
+{
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
+	/// @DnDVersion : 1
+	/// @DnDHash : 4B815E68
+	/// @DnDParent : 4E141580
+	/// @DnDArgument : "var" "cardirection"
+	/// @DnDArgument : "var_temp" "1"
+	/// @DnDArgument : "max" "2"
+	var cardirection = (random_range(0, 2));
+}
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 /// @DnDVersion : 1
-/// @DnDHash : 7B45B62A
+/// @DnDHash : 1D81C8D9
 /// @DnDArgument : "direction" "cardirection"
 direction = cardirection;
 

@@ -29,3 +29,19 @@ if(room == Instructions)
 	/// @DnDSaveInfo : "room" "Start"
 	room_goto(Start);
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4B5F74C5
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Credits"
+if(room == Credits)
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 1A2AA6A5
+	/// @DnDParent : 4B5F74C5
+	/// @DnDArgument : "room" "Start"
+	/// @DnDSaveInfo : "room" "Start"
+	room_goto(Start);
+}
