@@ -1,7 +1,5 @@
 This is a game I made where you cross busy highways where the cars are all going different speeds and directions and crash constantly.
 
-To install, download the latest zip release from the releases tab (its in the release description, not under the 'assets' tab) and extract it to wherever you want.
-
-If on Windows, it will come up with a message saying that this file shouldn't be run on your computer, just click 'more info' and then 'run anyway'.
+To install, download the latest releases from the releases tab and extract it to wherever you want, then use the .exe file to install the game and once done, delete the extracted files that you downloaded
 
 You can also run this game on Linux if you have Wine or Lutris installed, either add the game to Lutris, or right click the executable and select 'open with' and select Wine
