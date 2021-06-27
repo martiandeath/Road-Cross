@@ -27,9 +27,9 @@ if(room == Credits)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3350A742
 	/// @DnDParent : 259C60B9
-	/// @DnDArgument : "font" "ComicSans72"
-	/// @DnDSaveInfo : "font" "ComicSans72"
-	draw_set_font(ComicSans72);
+	/// @DnDArgument : "font" "ComicSans54"
+	/// @DnDSaveInfo : "font" "ComicSans54"
+	draw_set_font(ComicSans54);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -267,9 +267,9 @@ if(room == Game_4_Win)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AE9361A
 	/// @DnDParent : 0A9B5A0E
-	/// @DnDArgument : "font" "ComicSans72"
-	/// @DnDSaveInfo : "font" "ComicSans72"
-	draw_set_font(ComicSans72);
+	/// @DnDArgument : "font" "ComicSans54"
+	/// @DnDSaveInfo : "font" "ComicSans54"
+	draw_set_font(ComicSans54);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -336,9 +336,9 @@ if(room == Instructions)
 	/// @DnDVersion : 1
 	/// @DnDHash : 25BC1705
 	/// @DnDParent : 6349A524
-	/// @DnDArgument : "font" "ComicSans54"
-	/// @DnDSaveInfo : "font" "ComicSans54"
-	draw_set_font(ComicSans54);
+	/// @DnDArgument : "font" "ComicSans36"
+	/// @DnDSaveInfo : "font" "ComicSans36"
+	draw_set_font(ComicSans36);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
