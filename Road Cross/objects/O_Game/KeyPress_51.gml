@@ -9,7 +9,7 @@ if(room == Settings)
 	/// @DnDVersion : 1
 	/// @DnDHash : 77A1174E
 	/// @DnDParent : 79EC1550
-	/// @DnDArgument : "value" "0.75"
+	/// @DnDArgument : "value" "0.5"
 	/// @DnDArgument : "var" "global.difficulty"
-	global.difficulty = 0.75;
+	global.difficulty = 0.5;
 }
