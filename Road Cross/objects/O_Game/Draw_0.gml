@@ -532,6 +532,39 @@ if(room == Start)
 	/// @DnDArgument : "y" "room_height*0.1"
 	/// @DnDArgument : "caption" "">> C <<  Credits""
 	draw_text(room_width*0.02, room_height*0.1, string(">> C <<  Credits") + "");
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0AE509F7
+	/// @DnDParent : 4544E8EC
+	/// @DnDArgument : "valign" "fa_bottom"
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_bottom);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 2F751126
+	/// @DnDParent : 4544E8EC
+	/// @DnDArgument : "font" "ComicSans12"
+	draw_set_font(ComicSans12);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 2647C50E
+	/// @DnDParent : 4544E8EC
+	/// @DnDArgument : "color" "$FF999999"
+	draw_set_colour($FF999999 & $ffffff);
+	var l2647C50E_0=($FF999999 >> 24);
+	draw_set_alpha(l2647C50E_0 / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 71DF8C7E
+	/// @DnDParent : 4544E8EC
+	/// @DnDArgument : "x" "room_width*0.02"
+	/// @DnDArgument : "y" "room_height*0.965"
+	/// @DnDArgument : "caption" ""Road Cross v4.1.1-beta NOT FOR DISTRIBUTION""
+	draw_text(room_width*0.02, room_height*0.965, string("Road Cross v4.1.1-beta NOT FOR DISTRIBUTION") + "");
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

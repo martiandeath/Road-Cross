@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 25716DE8
 /// @DnDArgument : "steps" "room_speed*0.5*global.difficulty"
-/// @DnDArgument : "alarm" "4"
-alarm_set(4, room_speed*0.5*global.difficulty);
+/// @DnDArgument : "alarm" "6"
+alarm_set(6, room_speed*0.5*global.difficulty);
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1

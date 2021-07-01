@@ -53,8 +53,8 @@ if(room == Game_Level_1)
 	/// @DnDHash : 52C09E76
 	/// @DnDParent : 1AD36D0B
 	/// @DnDArgument : "steps" "room_speed*1"
-	/// @DnDArgument : "alarm" "4"
-	alarm_set(4, room_speed*1);
+	/// @DnDArgument : "alarm" "6"
+	alarm_set(6, room_speed*1);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
