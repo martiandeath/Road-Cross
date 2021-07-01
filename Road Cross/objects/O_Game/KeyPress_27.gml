@@ -9,9 +9,9 @@ if(room == Start)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4B1B3A02
 	/// @DnDParent : 4DDE12AB
-	/// @DnDArgument : "room" "Instructions"
-	/// @DnDSaveInfo : "room" "Instructions"
-	room_goto(Instructions);
+	/// @DnDArgument : "room" "Settings"
+	/// @DnDSaveInfo : "room" "Settings"
+	room_goto(Settings);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -41,6 +41,22 @@ if(room == Credits)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1A2AA6A5
 	/// @DnDParent : 4B5F74C5
+	/// @DnDArgument : "room" "Start"
+	/// @DnDSaveInfo : "room" "Start"
+	room_goto(Start);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 34DF9929
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Settings"
+if(room == Settings)
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 657477C9
+	/// @DnDParent : 34DF9929
 	/// @DnDArgument : "room" "Start"
 	/// @DnDSaveInfo : "room" "Start"
 	room_goto(Start);

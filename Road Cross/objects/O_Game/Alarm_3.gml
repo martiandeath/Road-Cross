@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 1C34E5D5
-/// @DnDArgument : "steps" "room_speed*0.05"
+/// @DnDArgument : "steps" "room_speed*0.05*global.difficulty"
 /// @DnDArgument : "alarm" "3"
-alarm_set(3, room_speed*0.05);
+alarm_set(3, room_speed*0.05*global.difficulty);
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
